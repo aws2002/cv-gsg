@@ -466,6 +466,47 @@ a {
     width: 95%;
   }
 }
+#regEx{
+  animation: regEx 2s forwards;
+  animation-delay: 3s;
+}
+#nodeJs,
+#mongoDb,
+#expressJs {
+  animation: expressJs 2s forwards;
+  animation-delay: 3s;
+}
+#react{
+  animation: react 2s forwards;
+  animation-delay: 3s;
+}
+@keyframes react {
+  100% {
+    width: 85%;
+  }
+
+  60% {
+    width: 95%;
+  }
+}
+@keyframes regEx {
+  100% {
+    width: 90%;
+  }
+
+  60% {
+    width: 95%;
+  }
+}
+@keyframes expressJs {
+  100% {
+    width: 70%;
+  }
+
+  60% {
+    width: 95%;
+  }
+}
 
 #php {
   animation: php-fill 3s forwards;
@@ -489,7 +530,7 @@ a {
 
 @keyframes Js-fill {
   100% {
-    width: 75%;
+    width: 85%;
   }
 
   40% {

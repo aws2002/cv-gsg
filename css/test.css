@@ -559,6 +559,83 @@ a {
   }
 }
 
+#regEx {
+  -webkit-animation: regEx 2s forwards;
+          animation: regEx 2s forwards;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+#nodeJs,
+#mongoDb,
+#expressJs {
+  -webkit-animation: expressJs 2s forwards;
+          animation: expressJs 2s forwards;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+#react {
+  -webkit-animation: react 2s forwards;
+          animation: react 2s forwards;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+@-webkit-keyframes react {
+  100% {
+    width: 85%;
+  }
+  60% {
+    width: 95%;
+  }
+}
+
+@keyframes react {
+  100% {
+    width: 85%;
+  }
+  60% {
+    width: 95%;
+  }
+}
+
+@-webkit-keyframes regEx {
+  100% {
+    width: 90%;
+  }
+  60% {
+    width: 95%;
+  }
+}
+
+@keyframes regEx {
+  100% {
+    width: 90%;
+  }
+  60% {
+    width: 95%;
+  }
+}
+
+@-webkit-keyframes expressJs {
+  100% {
+    width: 70%;
+  }
+  60% {
+    width: 95%;
+  }
+}
+
+@keyframes expressJs {
+  100% {
+    width: 70%;
+  }
+  60% {
+    width: 95%;
+  }
+}
+
 #php {
   -webkit-animation: php-fill 3s forwards;
           animation: php-fill 3s forwards;
@@ -593,7 +670,7 @@ a {
 
 @-webkit-keyframes Js-fill {
   100% {
-    width: 75%;
+    width: 85%;
   }
   40% {
     width: 85%;
@@ -602,7 +679,7 @@ a {
 
 @keyframes Js-fill {
   100% {
-    width: 75%;
+    width: 85%;
   }
   40% {
     width: 85%;
